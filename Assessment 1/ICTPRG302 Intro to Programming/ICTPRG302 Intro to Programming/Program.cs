@@ -15,26 +15,21 @@ namespace ICTPRG302_Intro_to_Programming
 		static void Main(string[] args)
 		{
 			
-
-
-
-
 			GamerTags gamertags = new GamerTags();
 
 
 			gamertags.LoadGamertags();
 			gamertags.WelcomeMessage();
-			gamertags.PrintAllGamertags();
-            gamertags.PrintAllGamertagsEndingInNumber();
-			gamertags.PrintAllGamertagsEndingwithnumberordigit();
-
-            
-			
+	
 			bool isrunning = true;
 
             while (isrunning)
             {
                 Console.WriteLine("*** Program sequence output-display gamertags etc***");
+
+                gamertags.PrintAllGamertags();
+                gamertags.PrintAllGamertagsEndingInNumber();
+                gamertags.PrintAllGamertagsEndingwithnumberordigit();
 
                 Console.WriteLine("Would you like to view the gamertags again (y/n)");
 

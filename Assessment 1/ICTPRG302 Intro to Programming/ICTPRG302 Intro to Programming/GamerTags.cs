@@ -28,8 +28,6 @@ namespace ICTPRG302_Intro_to_Programming
             foreach (string s in gamerTaglist)
                 
             {
-                
-                 
 
                Console.WriteLine(linenumber.ToString() + ") " + s);
 
